@@ -55,34 +55,35 @@ $ mv meats proteins
 
 ### Step 3E
 $ cd veggies
-$ mkdir carrot.txt pea.txt
+$ touch carrot.txt pea.txt
 
 ### Step 3F
 $ cd ..
 $ cd sweets
-$ mkdir cookie.txt
+$ touch cookie.txt
 
 ### Step 3G
-$ mv cookie.txt donut.txt
+$ touch cookie.txt donut.txt
 
 ### Step 3H
 $ cd ..
-$ mkdir thing.txt
+$ touch thing.txt
 
 ### Step 3I
-$ cp -r thing.txt tofu.txt
+$ cp thing.txt tofu.txt
 
 ### Step 3J
 $ mv tofu.txt proteins
 
 ### Step 3K
+$ cp thing.txt crab.txt
 $ mv crab.txt proteins
 $ cd proteins
 $ mv crab.txt meats
 
 
 ### Step 3L
-$ rm -r thing.txt
+$ rm thing.txt
 
 ### Step 3M
 $ cp -r veggies plants
@@ -104,7 +105,9 @@ git push -u origin main
 
 
 ### Step 6
-
+git add menu.txt
+git commit -m "Adding menu.txt"
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
