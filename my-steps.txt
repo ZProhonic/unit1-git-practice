@@ -1,84 +1,106 @@
 ### Step 2A
-
+/c/Users/zackp
 
 ### Step 2B
-
+$ cd Desktop/
 
 ### Step 2C
-
+$ cd unit1-git-practice/
 
 ### Step 2D
-
+/c/Users/zackp/Desktop/unit1-git-practice
 
 ### Step 2E
-
+$ ls
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+$ cd /c/
+or $ cd .. x2
 
 ### Step 2H
-
+/c
 
 ### Step 2I
+$ ls
+'$Recycle.Bin'/            'Program Files'/               devlist.txt
+ Config.Msi/               'Program Files (x86)'/         eSupport/
+'Documents and Settings'@   ProgramData/                  hiberfil.sys
+ DumpStack.log.tmp          Recovery/                     pagefile.sys
+ Finish.log                'System Volume Information'/   swapfile.sys
+ OneDriveTemp/              Users/
+ PerfLogs/                  Windows/
 
 
 ### Step 2J
-
+$ cd ~
 
 ### Step 2K
-
+$ cd Desktop/unit1-git-practice/
 
 
 ### Step 3A
-
+$ mkdir veggies meats desserts
 
 ### Step 3B
-
+$ mv desserts sweets
 
 ### Step 3C
-
+$ mkdir proteins
 
 ### Step 3D
-
+$ mv meats proteins
 
 ### Step 3E
-
+$ cd veggies
+$ mkdir carrot.txt pea.txt
 
 ### Step 3F
-
+$ cd ..
+$ cd sweets
+$ mkdir cookie.txt
 
 ### Step 3G
-
+$ mv cookie.txt donut.txt
 
 ### Step 3H
-
+$ cd ..
+$ mkdir thing.txt
 
 ### Step 3I
-
+$ cp -r thing.txt tofu.txt
 
 ### Step 3J
-
+$ mv tofu.txt proteins
 
 ### Step 3K
+$ mv crab.txt proteins
+$ cd proteins
+$ mv crab.txt meats
 
 
 ### Step 3L
-
+$ rm -r thing.txt
 
 ### Step 3M
-
+$ cp -r veggies plants
 
 ### Step 3N
-
+$ mkdir drinks
+$ rm -r drinks
 
 
 ### Step 4
-
+git init
+git add .
+git commit -m 'first commit'
 
 ### Step 5
+git remote add origin https://github.com/ZProhonic/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
